@@ -1,0 +1,121 @@
+.parent {
+     background-image: url(https://pixabay.com/get/g3f5199a042260d5af22753ee90c19d58c15ddcbc7c849660632782c00e8584a9c4a282df42fe5a13effb9ae455feda39cc3432ef93f6bff21bccd7a56e948729_1280.jpg);
+}
+
+.form_container {
+     width: max-content;
+     margin: 45px 80px;
+}
+
+.main {
+     border-radius: 20px;
+     display: inline-block;
+     width: 400px;
+     height: max-content;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     background-color: rgba(222, 222, 222, 0.7);
+}
+
+h1 {
+     text-align: center;
+     color: #102d6b;
+     font-size: 30px;
+}
+
+h3 {
+     color: gray;
+     font-size: 14px;
+     font-weight: 500;
+}
+
+
+.btn {
+     height: 40px;
+     padding: 10px;
+     border-radius: 30px;
+     border: 0px;
+     color: white;
+     background-color: #102d6b;
+     margin: 1px;
+}
+
+.btn:hover {
+     cursor: pointer;
+}
+
+.google_btn {
+     width: 300px;
+     margin-top: 20px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.google_btn p {
+     display: inline-block;
+     margin-left: 15px;
+}
+
+.account_btn {
+     width: 150px;
+}
+
+
+form {
+     margin: 20px 0 10px 0;
+     height: auto;
+     padding: 5px 0;
+}
+
+form label {
+     color: #E4E4E7;
+     display: block;
+     margin-bottom: 10px;
+}
+
+form input {
+     width: 300px;
+     height: 40px;
+     padding: 10px;
+     border-radius: 30px;
+     border: 1px solid #94A3B8;
+     transition: all 1s linear;
+}
+
+input:focus {
+        outline: 0;
+        width: 300px;
+    }
+
+.rem {
+     display: inline-block;
+     width: 15px;
+     height: 15px;
+}
+
+.me {
+     display: inline-block;
+     margin-left: 5px;
+}
+
+/* 
+    ====================================================================
+    main foot
+    ====================================================================
+    */
+
+.main_foot {
+     color: #64748B;
+}
+
+a {
+     text-decoration: none;
+     color: #2563EB;
+}
+
+.main_foot h3 {
+     margin-top: 10px;
+}

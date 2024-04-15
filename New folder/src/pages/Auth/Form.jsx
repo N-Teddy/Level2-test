@@ -37,7 +37,7 @@ export default function Form() {
                 <div className="image"></div>
                 <section className="main">
                     <section className="main_head">
-                        <h1>Join us today 👋</h1>
+                        <h1>Join us today </h1>
                         <h2>Clarity gives you the blacks and components you <br /> need to create a truly professional website.</h2>
                         <button className="btn google_btn">
                             <div className='logo_goo' alt="google logo"></div>

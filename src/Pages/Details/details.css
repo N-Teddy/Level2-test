@@ -1,0 +1,41 @@
+.detail_container {
+     display: flex;
+     margin: 28.5px 80px;
+     gap: 100px;
+}
+
+.product_image {
+     width: 400px;
+     height: max-content;
+
+     img {
+          width: 100%;
+     }
+
+}
+
+.key {
+     font-weight: 600;
+     color: #0f346c;
+}
+
+.desc {
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: column;
+     justify-content: center;
+     max-width: 600px;
+}
+
+
+.desc .entry {
+     display: flex;
+     flex-wrap: wrap;
+     margin: 10px;
+}
+
+.entry .key {
+     margin-right: 30px;
+}
+
+

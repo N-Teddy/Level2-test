@@ -1,0 +1,339 @@
+/* 
+==================================================================================
+==================================================================================
+http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+==================================================================================
+==================================================================================
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*
+==================================================================================
+==================================================================================
+Box Model
+==================================================================================
+==================================================================================
+*/
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+
+/* File Content
+==================================================================================
+==================================================================================
+# Components
+  – buttons
+  – list
+  – nav
+==================================================================================
+==================================================================================
+*/
+
+
+/*
+==================================================================================
+==================================================================================
+ list
+==================================================================================
+==================================================================================
+*/
+
+
+/*
+==================================================================================
+ header list
+==================================================================================
+*/
+
+
+.header_nav ul {
+	display: inline-block;
+	width: max-content;
+}
+
+.header_nav li {
+	display: inline-block;
+	width: auto;
+	height: 47px;
+	padding: 15px 16px;
+}
+
+
+/*
+==================================================================================
+ footer list
+==================================================================================
+*/
+
+
+.footer_nav {
+	width: 100%;
+	height: 280px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer_nav li {
+	display: inline-block;
+	padding: 8px 0px;
+}
+
+.left_ul {
+	column-count: 3;
+	column-gap: 0;
+	width: 51%;
+}
+
+.left_ul li {
+	width: auto;
+	display: flex;
+}
+
+
+.mid_ul {
+	display: inline-block;
+	width: 23%;
+}
+
+.mid_ul li {
+	display: flex;
+	align-items: center;
+}
+
+.right_ul {
+	display: inline-block;
+	width: 24.6%;
+	height: max-content;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+.right_ul li {
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+}
+
+
+
+/*
+==================================================================================
+==================================================================================
+ buttons
+==================================================================================
+==================================================================================
+*/
+
+.span {
+	display: inline-block;
+	border-radius: 30px;
+	border: none;
+}
+
+.s_u {
+	font-size: 14px;
+	font-weight: 500;
+	border-radius: 0;
+	padding: 13px 35px;
+	background-color: #f26c29;
+	color: white;
+}
+
+.r_o {
+	display: inline-block;
+	font-size: 12px;
+	font-weight: 500px;
+	width: auto;
+	height: max-content;
+	color: white;
+	background-color: #f26c29;
+	border-radius: 0;
+	padding: 9px 25px;
+	margin-left: 30px;
+}
+
+.med_btn {
+	font-size: 16px;
+	color: white;
+	font-weight: 700;
+	width: 151px;
+	height: 50px;
+	padding: 0 24px;
+}
+
+.b_1 {
+	width: auto;
+	line-height: 50px;
+	margin-top: 30px;
+	background-color: #002c9b;
+	word-spacing: 2px;
+	letter-spacing: 2.5px;
+}
+
+
+.b_2 {
+	font-weight: 300;
+	margin-top: 19px;
+	line-height: 50px;
+	background-color: #002c9b;
+
+}
+
+.s_s {
+	display: block;
+	font-size: 13px;
+	font-weight: 600;
+	color: #002c9b;
+	width: 121.44px;
+	height: 40px;
+	padding: 13px 29px;
+	margin: 0 50px 0 0;
+	background-color: white;
+}
+
+.o_c {
+	width: 151.04px;
+	height: 50px;
+	margin-top: 24px;
+	padding: 0px 24px;
+	font-weight: 700;
+	line-height: 50px;
+	font-size: 16px;
+	background-color: #002c9b;
+	color: white;
+}
+
+.b_o {
+	width: 256px;
+	height: 48px;
+	border: 2px solid rgb(0, 44, 155);
+	line-height: 48px;
+	color: rgb(0, 44, 155);
+	letter-spacing: 2px;
+}
+
+.b_m {
+	font-size: 16px;
+	font-weight: 500;
+	color: #002c9b;
+	padding: 16px 45px;
+}
+
+.s_b {
+	font-size: 16px;
+	font-weight: 500;
+	color: white;
+	padding: 12px 70px;
+	background-color: #002c9b;
+}
+
+/*
+==================================================================================
+==================================================================================
+ burger menu
+==================================================================================
+==================================================================================
+*/
+
+.header_cont input {
+	color: rgb(0, 128, 128);
+	display: none;
+}
+
+.burger_cont {
+	display: none;
+}
+
+.mobile_menu {
+	position: absolute;
+	top: -10px;
+	right: -360px;
+	background-color: white;
+	width: 330px;
+	height: auto;
+	border: 1px solid gold;
+	transition: all 1s linear;
+}
+
+.menu input,
+.menu label {
+	position: absolute;
+	right: 30px;
+}
+
+
+.mobile_menu ul li {
+	width: 96.4%;
+	border-bottom:  1px solid rgb(192, 193, 194);
+	padding: 20px 12px;
+	margin-left: 6px;
+}
+.mobile_menu div:first-of-type {
+	width: 100%;
+	height: 200px;
+	padding: 15px;
+}
+
+.mobile_menu div .button {
+	display: inline-block;
+	width: 100%;
+	padding: 15px 0;
+	text-align: center;
+}
+
+.burger_cont:has(input:checked) ~ .mobile_menu {
+	right: -10px;
+}
+

@@ -1,0 +1,371 @@
+/* 
+==================================================================================
+==================================================================================
+http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+==================================================================================
+==================================================================================
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*
+==================================================================================
+==================================================================================
+Box Model
+==================================================================================
+==================================================================================
+*/
+*,
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+/* File Content
+=================================================================================
+=================================================================================
+# Base
+  – normalize.css
+  – layout.css
+  – typography.css
+=================================================================================
+=================================================================================
+*/
+
+/* LAYOUT */
+
+/* 
+=================================================================================
+=================================================================================
+ hero
+=================================================================================
+=================================================================================
+*/
+
+body{
+	overflow-x: hidden;
+	background-color: white;
+}
+
+.ads {
+	width: 100%;
+	height: 60px;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #0f346c;
+}
+
+
+.hero {
+	width: 100%;
+	height: max-content;
+}
+
+
+.hero_main {
+	width: 100%;
+	height: 394px;
+	display: flex;
+	background-image: url(../images/others/header.jpg);
+	background-size: cover;
+	align-items: center;
+}
+
+.hero_sub {
+	width: /*33.2%*/ auto;
+	height: /*226px*/ auto;
+	margin: 0 50px;
+}
+
+.hero_mid {
+	width: 100%;
+	height: 355px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.hero_mid_cont {
+	width: 89.6%;
+	height: 275px;
+	display: flex;
+}
+
+.hero_mid_left {
+	width: 373.53px;
+	height: 275px;
+	padding: 60px 32px;
+	flex-shrink: 0;
+	display: flex;
+	gap: 20px;
+	flex-direction: column;
+	background-color: #002684;
+}
+
+.hero_mid_right {
+	display: inline-block;
+	width: 66.9%;
+	height: 275px;
+	background-image: url(../images/others/hero.webp);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.hero_btm {
+	width: 100%;
+	height: 254px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.hero_btm_main {
+	width: 74.8%;
+	height: auto;
+	text-align: center;
+}
+
+.rating_cont {
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+	align-items: center;
+}
+
+
+/* 
+=================================================================================
+=================================================================================
+ our offers
+=================================================================================
+=================================================================================
+*/
+
+.offers {
+	width: 100%;
+	height: /*872px*/ auto;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	text-align: center;
+}
+
+.offers_head {
+	width: 100%;
+	height: 150px;
+	padding: 18px 0 32px 0;
+}
+
+.offers_main {
+	width: 93.4%;
+	height: /*642px*/ auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	row-gap: 60px;
+}
+
+.cat {
+	width: 17.8%;
+	/* height: 298px; */
+	display: inline-block;
+}
+
+.cat_img {
+	width: 100%;
+	height: /*212px*/ auto;
+	aspect-ratio: 1/1;
+	margin-bottom: 10px;
+}
+
+.offers_btm {
+	width: 100%;
+	height: 132px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* 
+=================================================================================
+=================================================================================
+ qlt
+=================================================================================
+=================================================================================
+*/
+
+.qlt {
+	width: 100%;
+	height: 730px;
+	display: flex;
+	justify-content: center;
+	/* align-items: center; */
+	text-align: center;
+}
+
+.qlt_cont {
+	width: 89.7%;
+	height: /*601px*/auto;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.qlt_head {
+	width: /*42%*/ max-content;
+	height: 106px;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+.qlt_main {
+	width: 95.4%;
+	height: 416px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.qlt_main_sub {
+	width: 29.8%;
+	height: auto;
+}
+
+.qlt_img {
+	width: 100%;
+	height: 210px;
+	margin-bottom: 12px;
+}
+
+.qlt_btm {
+	width: auto;
+	height: 98px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+
+
+/* 
+=================================================================================
+=================================================================================
+ act
+=================================================================================
+=================================================================================
+*/
+
+.act {
+	background-image: url(../images/others/act.webp);
+	background-size: cover;
+	width: 100%;
+	height: 536px;
+	margin-bottom: 64px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
+
+.act_cont {
+	width: 100%;
+	height: 536px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.act_main {
+	background-color: white;
+	height: auto;
+	width: 49%;
+}
+
+
+/* 
+=================================================================================
+=================================================================================
+ start
+=================================================================================
+=================================================================================
+*/
+
+.start {
+	width: 100%;
+	height: 340px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.start_cont {
+	background-image: url(../images/others/start.webp);
+	width: 95.6%;
+	height: 340px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.start_main {
+	background-color: white;
+	width: /*44%*/ 550px;
+	height: auto;
+	flex-shrink: 0;
+	padding: 50px 0;
+}
+
+
+

@@ -1,5 +1,6 @@
 .parent {
-     background-image: url(https://pixabay.com/get/g3f5199a042260d5af22753ee90c19d58c15ddcbc7c849660632782c00e8584a9c4a282df42fe5a13effb9ae455feda39cc3432ef93f6bff21bccd7a56e948729_1280.jpg);
+     background-image: url(https://pixabay.com/get/g0c128edfec0a13cf9f71e752207e6f21ef4fc2578e712a623587158b25a4e64d713fdd2ed045b6fc1cbd41094e40494ccbd64fa35bdfa190624c503ba235342a_1280.jpg);
+     background-size: cover;
 }
 
 .form_container {
@@ -8,6 +9,7 @@
 }
 
 .main {
+     padding: 30px 0px;
      border-radius: 20px;
      display: inline-block;
      width: 400px;

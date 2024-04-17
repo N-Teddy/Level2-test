@@ -1,4 +1,5 @@
 .parent {
+     height: 100vh;
      background-image: url(https://pixabay.com/get/g0c128edfec0a13cf9f71e752207e6f21ef4fc2578e712a623587158b25a4e64d713fdd2ed045b6fc1cbd41094e40494ccbd64fa35bdfa190624c503ba235342a_1280.jpg);
      background-size: cover;
 }

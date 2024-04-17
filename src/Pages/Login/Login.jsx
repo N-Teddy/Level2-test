@@ -44,7 +44,7 @@ export default function Login() {
 					</section>
 				</section>
 				</div>
-			<Footer />
+			{/* <Footer /> */}
 		</div>
 	)
 }
